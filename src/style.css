@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  color: #606266;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.login-form {
+  width: 400px;
+  padding: 50px 20px 20px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.login-title {
+  text-align: center;
+  font-size: 30px;
+}
+.logout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.logout-content {
+  width: 500px;
+  padding: 50px 20px 20px 20px;
+  border-radius: 5px;
+}
+.transaction {
+  max-width: 500px;
+  height: 750px;
+  overflow-y: scroll;
+  padding: 50px 20px 20px 20px;
+  margin: auto;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.transaction-step {
+  margin-bottom: 20px;
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.thumbnail-image {
+  width: 50px;
+  height: 50px;
+  background-color: #409eff;
+  border-radius: 5px;
+}
+.product-image {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+  background-color: #409eff;
+  border-radius: 5px;
+}
+.input-number-updown {
+  display: inline-block;
+  border: 1px solid #eeeeee;
+}
+.input-number-updown ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.input-number-updown ul li {
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+}
+.input-number-updown ul li.numberdown {
+  display: inline-block;
+}
+.input-number-updown ul li.numberdown:hover,
+.input-number-updown ul li.numberup:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+}
+.input-number-updown ul li.numbervalue {
+  padding: 5px 30px 5px 30px;
+}
+.linkcursor {
+  cursor: pointer;
+}
+.success-checkout {
+  margin-top: 40px;
+}
+.success-icon {
+  font-size: 50px;
+}
+.report {
+  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+.table-responsive {
+  margin-top:20px;
+}
+.pagination {
+  margin-top:20px;
+}
